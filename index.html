@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="fast.css">
+  <script src="https://unpkg.com/vue@3.0.2"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <!--  -->
+
+    <!-- <div class="maintabs">
+      <span @click="finalresul=1" :class='[finalresul == `1` ? "active" : ""]'>Tab One</span>
+      <span @click="finalresul=2" :class='[finalresul == `2` ? "active" : ""]'>Tab Two</span>
+      <span @click="finalresul=3" :class='[finalresul == `3` ? "active" : ""]'>Tab There</span>
+      <span @click="finalresul=4" :class='[finalresul == `4` ? "active" : ""]'>Tab Four</span>
+    </div>
+    <div class="output">
+      <div class="number" v-if="finalresul==1">End 1</div>
+      <div class="number" v-if="finalresul==2">End 2</div>
+      <div class="number" v-if="finalresul==3">End 3</div>
+      <div class="number" v-if="finalresul==4">End 4</div>
+    </div> -->
+
+    <!--  -->
+
+    <!-- <div class="box" :style="{backgroundColor:color}">400 X 400</div> -->
+  
+    <!--  -->
+
+    <div class="centering">
+      <button @click="onchanging">{{insidetext}}</button>
+      <Transition name="bounce">
+        <span v-if="alowit">Hello From Jawad</span>
+      </Transition>
+    </div>
+  </div>
+  <script src="fast.js"></script>
+</body>
+</html>
